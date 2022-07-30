@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body class="login-body">
+
+    <div class="bg-container">
+        <img src="img/front-img.jpg" alt="" class="bg-image">
+
+        <div class="container">
+            <h1>LOG IN</h1>
+
+            <form action="" id="login-form" method="post">
+
+                <div class="tbox">
+                    <input type="text" id="uname" name="" value="" placeholder="Username"> 
+                </div>
+
+                <div class="tbox">
+                    <input type="password" id="pwd" name="" value="" placeholder="Password">
+                </div>
+
+                <input type="submit" class="btn" name="" value="LOGIN" onclick="validateLogin()">
+
+            </form>
+
+            <a href="#" class="b1">FORGOT PASSWORD</a>
+            <a href="#" class="b2">CREATE NEW ACCOUNT</a>
+
+        </div>
+
+        <div class="modal">
+
+            <div class="modal-header">
+                <img src="img/alert.jpg" alt="">
+            </div>
+            <p>Incorrect Username or Password</p>
+            <button class="btn" type="button" name="button" onclick="dismissModal()">TRY AGAIN</button>
+        </div>
+    </div>
+    
+</body>
+<script src="js/main.js"></script>
+</html>
